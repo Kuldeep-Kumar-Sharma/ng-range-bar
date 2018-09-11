@@ -21,7 +21,7 @@ Outputs:
 Add it to your Angular Module.
 
 ```
-import { NgRangeBarModule } from 'range-bar-app';
+import { NgRangeBarModule } from 'ng-range-bar';
 
 @NgModule({
   imports: [
@@ -37,9 +37,9 @@ export class AppModule { }
 ###### Template - somecomponent.component.html
 
 ```
-<ng-range-bar  [maxValue]=1080 //maximum value for the range bar
-[minValue]=1  //minimum value for the range bar
-[barColor]="'red'" //anycolor you can specify
+<ng-range-bar  [maxValue]=1080
+[minValue]=1
+[barColor]="'red'"
 (onSelect)="selectedObject($event)"></ng-range-bar>
 
 ```
